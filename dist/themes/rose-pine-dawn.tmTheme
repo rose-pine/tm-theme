@@ -290,6 +290,17 @@
         <string>#575279</string>
       </dict>
     </dict>
+    <dict>
+      <key>name</key>
+      <string>Punctuation, Operators</string>
+      <key>scope</key>
+      <string>punctuation, keyword.operator</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#797593</string>
+      </dict>
+    </dict>
   </array>
   <key>colorSpaceName</key>
   <string>sRGB</string>

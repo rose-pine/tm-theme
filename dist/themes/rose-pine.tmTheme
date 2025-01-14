@@ -290,6 +290,17 @@
         <string>#e0def4</string>
       </dict>
     </dict>
+    <dict>
+      <key>name</key>
+      <string>Punctuation, Operators</string>
+      <key>scope</key>
+      <string>punctuation, keyword.operator</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#908caa</string>
+      </dict>
+    </dict>
   </array>
   <key>colorSpaceName</key>
   <string>sRGB</string>

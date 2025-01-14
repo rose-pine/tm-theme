@@ -290,6 +290,17 @@
         <string>$text</string>
       </dict>
     </dict>
+    <dict>
+      <key>name</key>
+      <string>Punctuation, Operators</string>
+      <key>scope</key>
+      <string>punctuation, keyword.operator</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>$subtle</string>
+      </dict>
+    </dict>
   </array>
   <key>colorSpaceName</key>
   <string>sRGB</string>
