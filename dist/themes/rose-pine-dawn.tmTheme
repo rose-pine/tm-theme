@@ -30,6 +30,8 @@
       <string>comment</string>
       <key>settings</key>
       <dict>
+        <key>fontStyle</key>
+        <string>italic</string>
         <key>foreground</key>
         <string>#797593</string>
       </dict>
@@ -38,7 +40,7 @@
       <key>name</key>
       <string>String</string>
       <key>scope</key>
-      <string>string</string>
+      <string>string, punctuation.definition.string</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -53,7 +55,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#907aa9</string>
+        <string>#ea9d34</string>
       </dict>
     </dict>
     <dict>
@@ -63,8 +65,10 @@
       <string>constant.language</string>
       <key>settings</key>
       <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
         <key>foreground</key>
-        <string>#907aa9</string>
+        <string>#ea9d34</string>
       </dict>
     </dict>
     <dict>
@@ -75,7 +79,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#907aa9</string>
+        <string>#ea9d34</string>
       </dict>
     </dict>
     <dict>
@@ -86,9 +90,9 @@
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
-        <string></string>
+        <string>italic</string>
         <key>foreground</key>
-        <string>#d7827e</string>
+        <string>#575279</string>
       </dict>
     </dict>
     <dict>
@@ -99,7 +103,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#b4637a</string>
+        <string>#286983</string>
       </dict>
     </dict>
     <dict>
@@ -112,7 +116,7 @@
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#b4637a</string>
+        <string>#56949f</string>
       </dict>
     </dict>
     <dict>
@@ -123,7 +127,7 @@
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
-        <string>italic</string>
+        <string></string>
         <key>foreground</key>
         <string>#56949f</string>
       </dict>
@@ -136,7 +140,7 @@
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
-        <string> bold</string>
+        <string>bold</string>
         <key>foreground</key>
         <string>#286983</string>
       </dict>
@@ -162,9 +166,9 @@
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
-        <string></string>
+        <string>italic</string>
         <key>foreground</key>
-        <string>#286983</string>
+        <string>#d7827e</string>
       </dict>
     </dict>
     <dict>
@@ -175,9 +179,9 @@
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
-        <string>italic</string>
+        <string></string>
         <key>foreground</key>
-        <string>#ea9d34</string>
+        <string>#907aa9</string>
       </dict>
     </dict>
     <dict>
@@ -188,9 +192,9 @@
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
-        <string></string>
+        <string>bold</string>
         <key>foreground</key>
-        <string>#b4637a</string>
+        <string>#286983</string>
       </dict>
     </dict>
     <dict>
@@ -203,7 +207,7 @@
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#286983</string>
+        <string>#907aa9</string>
       </dict>
     </dict>
     <dict>
@@ -214,9 +218,9 @@
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
-        <string></string>
+        <string>bold</string>
         <key>foreground</key>
-        <string>#56949f</string>
+        <string>#d7827e</string>
       </dict>
     </dict>
     <dict>
@@ -227,9 +231,9 @@
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
-        <string></string>
+        <string>bold</string>
         <key>foreground</key>
-        <string>#56949f</string>
+        <string>#ea9d34</string>
       </dict>
     </dict>
     <dict>
@@ -240,7 +244,7 @@
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
-        <string>italic</string>
+        <string>bold</string>
         <key>foreground</key>
         <string>#56949f</string>
       </dict>
@@ -253,7 +257,9 @@
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
-        <string></string>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#b4637a</string>
       </dict>
     </dict>
     <dict>
@@ -284,16 +290,25 @@
         <string>#575279</string>
       </dict>
     </dict>
+    <dict>
+      <key>name</key>
+      <string>Punctuation, Operators</string>
+      <key>scope</key>
+      <string>punctuation, keyword.operator</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#797593</string>
+      </dict>
+    </dict>
   </array>
-  <key>uuid</key>
-  <string>dac29768-bcff-4df3-936c-88c7540d550d</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>semanticClass</key>
-  <string>theme.light.rosé_pine-dawn</string>
+  <string>theme.light.rosé-pine-dawn</string>
   <key>author</key>
-  <string>oplik0</string>
+  <string>arrrgi</string>
   <key>comment</key>
-  <string>soho vibes - modified from the sublime text theme by ThatOneCalculator</string>
+  <string>All natural pine, faux fur and a bit of soho vibes for the classy minimalist</string>
 </dict>
 </plist>
