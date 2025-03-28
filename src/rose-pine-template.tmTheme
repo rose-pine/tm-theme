@@ -310,5 +310,7 @@
   <string>arrrgi</string>
   <key>comment</key>
   <string>$description</string>
+  <key>uuid</key>
+  <string>14991673-80EB-41A2-BEFF-03216A233730</string>
 </dict>
 </plist>
