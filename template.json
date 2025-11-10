@@ -1,0 +1,740 @@
+{
+  "colors": {
+    "activityBar.activeBorder": "$text",
+    "activityBar.background": "$base",
+    "activityBar.dropBorder": "$overlay",
+    "activityBar.foreground": "$text",
+    "activityBar.inactiveForeground": "$subtle",
+    "activityBarBadge.background": "$rose",
+    "activityBarBadge.foreground": "$base",
+    "badge.background": "$rose",
+    "badge.foreground": "$base",
+    "banner.background": "$surface",
+    "banner.foreground": "$text",
+    "banner.iconForeground": "$subtle",
+    "breadcrumb.activeSelectionForeground": "$rose",
+    "breadcrumb.background": "$base",
+    "breadcrumb.focusForeground": "$subtle",
+    "breadcrumb.foreground": "$muted",
+    "breadcrumbPicker.background": "$surface",
+    "button.background": "$rose",
+    "button.foreground": "$base",
+    "button.hoverBackground": "$rosee6",
+    "button.secondaryBackground": "$surface",
+    "button.secondaryForeground": "$text",
+    "button.secondaryHoverBackground": "$overlay",
+    "charts.blue": "$foam",
+    "charts.foreground": "$text",
+    "charts.green": "$pine",
+    "charts.lines": "$subtle",
+    "charts.orange": "$rose",
+    "charts.purple": "$iris",
+    "charts.red": "$love",
+    "charts.yellow": "$gold",
+    "checkbox.background": "$surface",
+    "checkbox.border": "$muted33",
+    "checkbox.foreground": "$text",
+    "debugExceptionWidget.background": "$surface",
+    "debugExceptionWidget.border": "$muted33",
+    "debugIcon.breakpointCurrentStackframeForeground": "$subtle",
+    "debugIcon.breakpointDisabledForeground": "$subtle",
+    "debugIcon.breakpointForeground": "$subtle",
+    "debugIcon.breakpointStackframeForeground": "$subtle",
+    "debugIcon.breakpointUnverifiedForeground": "$subtle",
+    "debugIcon.continueForeground": "$subtle",
+    "debugIcon.disconnectForeground": "$subtle",
+    "debugIcon.pauseForeground": "$subtle",
+    "debugIcon.restartForeground": "$subtle",
+    "debugIcon.startForeground": "$subtle",
+    "debugIcon.stepBackForeground": "$subtle",
+    "debugIcon.stepIntoForeground": "$subtle",
+    "debugIcon.stepOutForeground": "$subtle",
+    "debugIcon.stepOverForeground": "$subtle",
+    "debugIcon.stopForeground": "$love",
+    "debugToolBar.background": "$surface",
+    "debugToolBar.border": "$overlay",
+    "descriptionForeground": "$subtle",
+    "diffEditor.border": "$overlay",
+    "diffEditor.diagonalFill": "$muted66",
+    "diffEditor.insertedLineBackground": "$foam26",
+    "diffEditor.insertedTextBackground": "$foam26",
+    "diffEditor.removedLineBackground": "$love26",
+    "diffEditor.removedTextBackground": "$love26",
+    "diffEditorOverview.insertedForeground": "$foam80",
+    "diffEditorOverview.removedForeground": "$love80",
+    "dropdown.background": "$surface",
+    "dropdown.border": "$muted33",
+    "dropdown.foreground": "$text",
+    "dropdown.listBackground": "$surface",
+    "editor.background": "$base",
+    "editor.findMatchBackground": "$gold33",
+    "editor.findMatchBorder": "$gold80",
+    "editor.findMatchForeground": "$text",
+    "editor.findMatchHighlightBackground": "$muted66",
+    "editor.findMatchHighlightForeground": "$textcc",
+    "editor.findRangeHighlightBackground": "$muted66",
+    "editor.findRangeHighlightBorder": "#0000",
+    "editor.focusedStackFrameHighlightBackground": "$muted33",
+    "editor.foldBackground": "$muted33",
+    "editor.foreground": "$text",
+    "editor.hoverHighlightBackground": "#0000",
+    "editor.inactiveSelectionBackground": "$muted1a",
+    "editor.inlineValuesBackground": "#0000",
+    "editor.inlineValuesForeground": "$subtle",
+    "editor.lineHighlightBackground": "$muted1a",
+    "editor.lineHighlightBorder": "#0000",
+    "editor.linkedEditingBackground": "$muted33",
+    "editor.rangeHighlightBackground": "$muted1a",
+    "editor.selectionBackground": "$muted33",
+    "editor.selectionForeground": "$text",
+    "editor.selectionHighlightBackground": "$muted33",
+    "editor.selectionHighlightBorder": "$base",
+    "editor.snippetFinalTabstopHighlightBackground": "$muted33",
+    "editor.snippetFinalTabstopHighlightBorder": "$surface",
+    "editor.snippetTabstopHighlightBackground": "$muted33",
+    "editor.snippetTabstopHighlightBorder": "$surface",
+    "editor.stackFrameHighlightBackground": "$muted33",
+    "editor.symbolHighlightBackground": "$muted33",
+    "editor.symbolHighlightBorder": "#0000",
+    "editor.wordHighlightBackground": "$muted33",
+    "editor.wordHighlightBorder": "#0000",
+    "editor.wordHighlightStrongBackground": "$muted33",
+    "editor.wordHighlightStrongBorder": "$muted33",
+    "editorBracketHighlight.foreground1": "$love80",
+    "editorBracketHighlight.foreground2": "$pine80",
+    "editorBracketHighlight.foreground3": "$gold80",
+    "editorBracketHighlight.foreground4": "$foam80",
+    "editorBracketHighlight.foreground5": "$rose80",
+    "editorBracketHighlight.foreground6": "$iris80",
+    "editorBracketMatch.background": "#0000",
+    "editorBracketMatch.border": "$subtle",
+    "editorBracketPairGuide.activeBackground1": "$pine",
+    "editorBracketPairGuide.activeBackground2": "$rose",
+    "editorBracketPairGuide.activeBackground3": "$iris",
+    "editorBracketPairGuide.activeBackground4": "$foam",
+    "editorBracketPairGuide.activeBackground5": "$gold",
+    "editorBracketPairGuide.activeBackground6": "$love",
+    "editorBracketPairGuide.background1": "$pine80",
+    "editorBracketPairGuide.background2": "$rose80",
+    "editorBracketPairGuide.background3": "$iris80",
+    "editorBracketPairGuide.background4": "$foam80",
+    "editorBracketPairGuide.background5": "$gold80",
+    "editorBracketPairGuide.background6": "$love80",
+    "editorCodeLens.foreground": "$rose",
+    "editorCursor.background": "$text",
+    "editorCursor.foreground": "$muted",
+    "editorError.border": "#0000",
+    "editorError.foreground": "$love",
+    "editorGhostText.foreground": "$subtle",
+    "editorGroup.border": "#0000",
+    "editorGroup.dropBackground": "$surface",
+    "editorGroup.emptyBackground": "#0000",
+    "editorGroup.focusedEmptyBorder": "#0000",
+    "editorGroupHeader.noTabsBackground": "#0000",
+    "editorGroupHeader.tabsBackground": "#0000",
+    "editorGroupHeader.tabsBorder": "#0000",
+    "editorGutter.addedBackground": "$foam",
+    "editorGutter.background": "$base",
+    "editorGutter.commentRangeForeground": "$overlay",
+    "editorGutter.deletedBackground": "$love",
+    "editorGutter.foldingControlForeground": "$iris",
+    "editorGutter.modifiedBackground": "$rose",
+    "editorHint.border": "#0000",
+    "editorHint.foreground": "$subtle",
+    "editorHoverWidget.background": "$surface",
+    "editorHoverWidget.border": "$muted80",
+    "editorHoverWidget.foreground": "$subtle",
+    "editorHoverWidget.highlightForeground": "$text",
+    "editorHoverWidget.statusBarBackground": "#0000",
+    "editorIndentGuide.activeBackground1": "$muted",
+    "editorIndentGuide.background1": "$muted66",
+    "editorInfo.border": "$overlay",
+    "editorInfo.foreground": "$foam",
+    "editorInlayHint.background": "$overlay80",
+    "editorInlayHint.foreground": "$subtle80",
+    "editorInlayHint.parameterBackground": "$overlay80",
+    "editorInlayHint.parameterForeground": "$iris80",
+    "editorInlayHint.typeBackground": "$overlay80",
+    "editorInlayHint.typeForeground": "$foam80",
+    "editorLightBulb.foreground": "$pine",
+    "editorLightBulbAutoFix.foreground": "$rose",
+    "editorLineNumber.activeForeground": "$text",
+    "editorLineNumber.foreground": "$subtle",
+    "editorLink.activeForeground": "$rose",
+    "editorMarkerNavigation.background": "$surface",
+    "editorMarkerNavigationError.background": "$surface",
+    "editorMarkerNavigationInfo.background": "$surface",
+    "editorMarkerNavigationWarning.background": "$surface",
+    "editorOverviewRuler.addedForeground": "$foam80",
+    "editorOverviewRuler.background": "$base",
+    "editorOverviewRuler.border": "$muted66",
+    "editorOverviewRuler.bracketMatchForeground": "$subtle",
+    "editorOverviewRuler.commentForeground": "$subtle80",
+    "editorOverviewRuler.commentUnresolvedForeground": "$gold80",
+    "editorOverviewRuler.commonContentForeground": "$muted1a",
+    "editorOverviewRuler.currentContentForeground": "$muted33",
+    "editorOverviewRuler.deletedForeground": "$love80",
+    "editorOverviewRuler.errorForeground": "$love80",
+    "editorOverviewRuler.findMatchForeground": "$muted66",
+    "editorOverviewRuler.incomingContentForeground": "$iris80",
+    "editorOverviewRuler.infoForeground": "$foam80",
+    "editorOverviewRuler.modifiedForeground": "$rose80",
+    "editorOverviewRuler.rangeHighlightForeground": "$muted66",
+    "editorOverviewRuler.selectionHighlightForeground": "$muted66",
+    "editorOverviewRuler.warningForeground": "$gold80",
+    "editorOverviewRuler.wordHighlightForeground": "$muted33",
+    "editorOverviewRuler.wordHighlightStrongForeground": "$muted66",
+    "editorPane.background": "#0000",
+    "editorRuler.foreground": "$muted66",
+    "editorSuggestWidget.background": "$surface",
+    "editorSuggestWidget.border": "#0000",
+    "editorSuggestWidget.focusHighlightForeground": "$rose",
+    "editorSuggestWidget.foreground": "$subtle",
+    "editorSuggestWidget.highlightForeground": "$rose",
+    "editorSuggestWidget.selectedBackground": "$muted33",
+    "editorSuggestWidget.selectedForeground": "$text",
+    "editorSuggestWidget.selectedIconForeground": "$text",
+    "editorUnnecessaryCode.border": "#0000",
+    "editorUnnecessaryCode.opacity": "$text80",
+    "editorWarning.border": "#0000",
+    "editorWarning.foreground": "$gold",
+    "editorWhitespace.foreground": "$muted80",
+    "editorWidget.background": "$surface",
+    "editorWidget.border": "$overlay",
+    "editorWidget.foreground": "$subtle",
+    "editorWidget.resizeBorder": "$muted",
+    "errorForeground": "$love",
+    "extensionBadge.remoteBackground": "$iris",
+    "extensionBadge.remoteForeground": "$base",
+    "extensionButton.prominentBackground": "$rose",
+    "extensionButton.prominentForeground": "$base",
+    "extensionButton.prominentHoverBackground": "$rosee6",
+    "extensionIcon.preReleaseForeground": "$pine",
+    "extensionIcon.starForeground": "$rose",
+    "extensionIcon.verifiedForeground": "$iris",
+    "focusBorder": "$muted33",
+    "foreground": "$text",
+    "git.blame.editorDecorationForeground": "$muted",
+    "gitDecoration.addedResourceForeground": "$foam",
+    "gitDecoration.conflictingResourceForeground": "$love",
+    "gitDecoration.deletedResourceForeground": "$subtle",
+    "gitDecoration.ignoredResourceForeground": "$muted",
+    "gitDecoration.modifiedResourceForeground": "$rose",
+    "gitDecoration.renamedResourceForeground": "$pine",
+    "gitDecoration.stageDeletedResourceForeground": "$love",
+    "gitDecoration.stageModifiedResourceForeground": "$iris",
+    "gitDecoration.submoduleResourceForeground": "$gold",
+    "gitDecoration.untrackedResourceForeground": "$gold",
+    "icon.foreground": "$subtle",
+    "input.background": "$overlay80",
+    "input.border": "$muted33",
+    "input.foreground": "$text",
+    "input.placeholderForeground": "$subtle",
+    "inputOption.activeBackground": "$rose26",
+    "inputOption.activeBorder": "#0000",
+    "inputOption.activeForeground": "$rose",
+    "inputValidation.errorBackground": "$surface",
+    "inputValidation.errorBorder": "$muted66",
+    "inputValidation.errorForeground": "$love",
+    "inputValidation.infoBackground": "$surface",
+    "inputValidation.infoBorder": "$muted66",
+    "inputValidation.infoForeground": "$foam",
+    "inputValidation.warningBackground": "$surface",
+    "inputValidation.warningBorder": "$muted66",
+    "inputValidation.warningForeground": "$foam80",
+    "keybindingLabel.background": "$overlay",
+    "keybindingLabel.border": "$muted66",
+    "keybindingLabel.bottomBorder": "$muted66",
+    "keybindingLabel.foreground": "$iris",
+    "keybindingTable.headerBackground": "$overlay",
+    "keybindingTable.rowsBackground": "$surface",
+    "list.activeSelectionBackground": "$muted33",
+    "list.activeSelectionForeground": "$text",
+    "list.deemphasizedForeground": "$subtle",
+    "list.dropBackground": "$surface",
+    "list.errorForeground": "$love",
+    "list.filterMatchBackground": "$surface",
+    "list.filterMatchBorder": "$rose",
+    "list.focusBackground": "$muted66",
+    "list.focusForeground": "$text",
+    "list.focusOutline": "$muted33",
+    "list.highlightForeground": "$rose",
+    "list.hoverBackground": "$muted1a",
+    "list.hoverForeground": "$text",
+    "list.inactiveFocusBackground": "$muted1a",
+    "list.inactiveSelectionBackground": "$surface",
+    "list.inactiveSelectionForeground": "$text",
+    "list.invalidItemForeground": "$love",
+    "list.warningForeground": "$gold",
+    "listFilterWidget.background": "$surface",
+    "listFilterWidget.noMatchesOutline": "$love",
+    "listFilterWidget.outline": "$overlay",
+    "menu.background": "$surface",
+    "menu.border": "$muted1a",
+    "menu.foreground": "$text",
+    "menu.selectionBackground": "$muted33",
+    "menu.selectionBorder": "$overlay",
+    "menu.selectionForeground": "$text",
+    "menu.separatorBackground": "$muted66",
+    "menubar.selectionBackground": "$muted33",
+    "menubar.selectionBorder": "$muted1a",
+    "menubar.selectionForeground": "$text",
+    "merge.border": "$overlay",
+    "merge.commonContentBackground": "$muted33",
+    "merge.commonHeaderBackground": "$muted33",
+    "merge.currentContentBackground": "$gold80",
+    "merge.currentHeaderBackground": "$gold80",
+    "merge.incomingContentBackground": "$foam80",
+    "merge.incomingHeaderBackground": "$foam80",
+    "minimap.background": "$surface",
+    "minimap.errorHighlight": "$love80",
+    "minimap.findMatchHighlight": "$muted33",
+    "minimap.selectionHighlight": "$muted33",
+    "minimap.warningHighlight": "$gold80",
+    "minimapGutter.addedBackground": "$foam",
+    "minimapGutter.deletedBackground": "$love",
+    "minimapGutter.modifiedBackground": "$rose",
+    "minimapSlider.activeBackground": "$muted66",
+    "minimapSlider.background": "$muted33",
+    "minimapSlider.hoverBackground": "$muted33",
+    "notebook.cellBorderColor": "$foam80",
+    "notebook.cellEditorBackground": "$surface",
+    "notebook.cellHoverBackground": "$overlay80",
+    "notebook.focusedCellBackground": "$muted1a",
+    "notebook.focusedCellBorder": "$foam",
+    "notebook.outputContainerBackgroundColor": "$muted1a",
+    "notificationCenter.border": "$muted33",
+    "notificationCenterHeader.background": "$surface",
+    "notificationCenterHeader.foreground": "$subtle",
+    "notificationLink.foreground": "$iris",
+    "notificationToast.border": "$muted33",
+    "notifications.background": "$surface",
+    "notifications.border": "$muted33",
+    "notifications.foreground": "$text",
+    "notificationsErrorIcon.foreground": "$love",
+    "notificationsInfoIcon.foreground": "$foam",
+    "notificationsWarningIcon.foreground": "$gold",
+    "panel.background": "$surface",
+    "panel.border": "#0000",
+    "panel.dropBorder": "$overlay",
+    "panelInput.border": "$surface",
+    "panelSection.dropBackground": "$muted33",
+    "panelSectionHeader.background": "$surface",
+    "panelSectionHeader.foreground": "$text",
+    "panelTitle.activeBorder": "$muted66",
+    "panelTitle.activeForeground": "$text",
+    "panelTitle.inactiveForeground": "$subtle",
+    "peekView.border": "$overlay",
+    "peekViewEditor.background": "$surface",
+    "peekViewEditor.matchHighlightBackground": "$muted66",
+    "peekViewResult.background": "$surface",
+    "peekViewResult.fileForeground": "$subtle",
+    "peekViewResult.lineForeground": "$subtle",
+    "peekViewResult.matchHighlightBackground": "$muted66",
+    "peekViewResult.selectionBackground": "$muted33",
+    "peekViewResult.selectionForeground": "$text",
+    "peekViewTitle.background": "$overlay",
+    "peekViewTitleDescription.foreground": "$subtle",
+    "pickerGroup.border": "$muted66",
+    "pickerGroup.foreground": "$iris",
+    "ports.iconRunningProcessForeground": "$rose",
+    "problemsErrorIcon.foreground": "$love",
+    "problemsInfoIcon.foreground": "$foam",
+    "problemsWarningIcon.foreground": "$gold",
+    "progressBar.background": "$rose",
+    "quickInput.background": "$surface",
+    "quickInput.foreground": "$subtle",
+    "quickInputList.focusBackground": "$muted33",
+    "quickInputList.focusForeground": "$text",
+    "quickInputList.focusIconForeground": "$text",
+    "scrollbar.shadow": "$surface4d",
+    "scrollbarSlider.activeBackground": "$pine80",
+    "scrollbarSlider.background": "$muted33",
+    "scrollbarSlider.hoverBackground": "$muted66",
+    "searchEditor.findMatchBackground": "$muted33",
+    "selection.background": "$muted66",
+    "settings.focusedRowBackground": "$surface",
+    "settings.focusedRowBorder": "$muted33",
+    "settings.headerForeground": "$text",
+    "settings.modifiedItemIndicator": "$rose",
+    "settings.rowHoverBackground": "$surface",
+    "sideBar.background": "$base",
+    "sideBar.dropBackground": "$surface",
+    "sideBar.foreground": "$subtle",
+    "sideBarSectionHeader.background": "#0000",
+    "sideBarSectionHeader.border": "$muted33",
+    "statusBar.background": "$base",
+    "statusBar.debuggingBackground": "$iris",
+    "statusBar.debuggingForeground": "$base",
+    "statusBar.foreground": "$subtle",
+    "statusBar.noFolderBackground": "$base",
+    "statusBar.noFolderForeground": "$subtle",
+    "statusBarItem.activeBackground": "$muted66",
+    "statusBarItem.errorBackground": "$base",
+    "statusBarItem.errorForeground": "$love",
+    "statusBarItem.hoverBackground": "$muted33",
+    "statusBarItem.prominentBackground": "$overlay",
+    "statusBarItem.prominentForeground": "$text",
+    "statusBarItem.prominentHoverBackground": "$muted33",
+    "statusBarItem.remoteBackground": "$base",
+    "statusBarItem.remoteForeground": "$gold",
+    "symbolIcon.arrayForeground": "$subtle",
+    "symbolIcon.classForeground": "$subtle",
+    "symbolIcon.colorForeground": "$subtle",
+    "symbolIcon.constantForeground": "$subtle",
+    "symbolIcon.constructorForeground": "$subtle",
+    "symbolIcon.enumeratorForeground": "$subtle",
+    "symbolIcon.enumeratorMemberForeground": "$subtle",
+    "symbolIcon.eventForeground": "$subtle",
+    "symbolIcon.fieldForeground": "$subtle",
+    "symbolIcon.fileForeground": "$subtle",
+    "symbolIcon.folderForeground": "$subtle",
+    "symbolIcon.functionForeground": "$subtle",
+    "symbolIcon.interfaceForeground": "$subtle",
+    "symbolIcon.keyForeground": "$subtle",
+    "symbolIcon.keywordForeground": "$subtle",
+    "symbolIcon.methodForeground": "$subtle",
+    "symbolIcon.moduleForeground": "$subtle",
+    "symbolIcon.namespaceForeground": "$subtle",
+    "symbolIcon.nullForeground": "$subtle",
+    "symbolIcon.numberForeground": "$subtle",
+    "symbolIcon.objectForeground": "$subtle",
+    "symbolIcon.operatorForeground": "$subtle",
+    "symbolIcon.packageForeground": "$subtle",
+    "symbolIcon.propertyForeground": "$subtle",
+    "symbolIcon.referenceForeground": "$subtle",
+    "symbolIcon.snippetForeground": "$subtle",
+    "symbolIcon.stringForeground": "$subtle",
+    "symbolIcon.structForeground": "$subtle",
+    "symbolIcon.textForeground": "$subtle",
+    "symbolIcon.typeParameterForeground": "$subtle",
+    "symbolIcon.unitForeground": "$subtle",
+    "symbolIcon.variableForeground": "$subtle",
+    "tab.activeBackground": "$muted1a",
+    "tab.activeForeground": "$text",
+    "tab.activeModifiedBorder": "$foam",
+    "tab.border": "#0000",
+    "tab.hoverBackground": "$muted33",
+    "tab.inactiveBackground": "#0000",
+    "tab.inactiveForeground": "$subtle",
+    "tab.inactiveModifiedBorder": "$foam80",
+    "tab.lastPinnedBorder": "$muted",
+    "tab.unfocusedActiveBackground": "#0000",
+    "tab.unfocusedHoverBackground": "#0000",
+    "tab.unfocusedInactiveBackground": "#0000",
+    "tab.unfocusedInactiveModifiedBorder": "$foam80",
+    "terminal.ansiBlack": "$overlay",
+    "terminal.ansiBlue": "$foam",
+    "terminal.ansiBrightBlack": "$subtle",
+    "terminal.ansiBrightBlue": "$foam",
+    "terminal.ansiBrightCyan": "$rose",
+    "terminal.ansiBrightGreen": "$pine",
+    "terminal.ansiBrightMagenta": "$iris",
+    "terminal.ansiBrightRed": "$love",
+    "terminal.ansiBrightWhite": "$text",
+    "terminal.ansiBrightYellow": "$gold",
+    "terminal.ansiCyan": "$rose",
+    "terminal.ansiGreen": "$pine",
+    "terminal.ansiMagenta": "$iris",
+    "terminal.ansiRed": "$love",
+    "terminal.ansiWhite": "$text",
+    "terminal.ansiYellow": "$gold",
+    "terminal.dropBackground": "$muted33",
+    "terminal.foreground": "$text",
+    "terminal.selectionBackground": "$muted33",
+    "terminal.tab.activeBorder": "$text",
+    "terminalCursor.background": "$text",
+    "terminalCursor.foreground": "$muted",
+    "textBlockQuote.background": "$surface",
+    "textBlockQuote.border": "$muted33",
+    "textCodeBlock.background": "$surface",
+    "textLink.activeForeground": "$irise6",
+    "textLink.foreground": "$iris",
+    "textPreformat.foreground": "$gold",
+    "textSeparator.foreground": "$subtle",
+    "titleBar.activeBackground": "$base",
+    "titleBar.activeForeground": "$subtle",
+    "titleBar.inactiveBackground": "$surface",
+    "titleBar.inactiveForeground": "$subtle",
+    "toolbar.activeBackground": "$muted66",
+    "toolbar.hoverBackground": "$muted33",
+    "tree.indentGuidesStroke": "$subtle",
+    "walkThrough.embeddedEditorBackground": "$base",
+    "welcomePage.background": "$base",
+    "widget.shadow": "$surface4d",
+    "window.activeBorder": "$surface",
+    "window.inactiveBorder": "$surface"
+  },
+  "displayName": "$name",
+  "name": "$id",
+  "tokenColors": [
+    {
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "$muted"
+      }
+    },
+    {
+      "scope": [
+        "constant"
+      ],
+      "settings": {
+        "foreground": "$pine"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.language"
+      ],
+      "settings": {
+        "foreground": "$rose"
+      }
+    },
+    {
+      "scope": [
+        "entity.name"
+      ],
+      "settings": {
+        "foreground": "$rose"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.section",
+        "entity.name.tag",
+        "entity.name.namespace",
+        "entity.name.type"
+      ],
+      "settings": {
+        "foreground": "$foam"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name",
+        "entity.other.inherited-class"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "$iris"
+      }
+    },
+    {
+      "scope": [
+        "invalid"
+      ],
+      "settings": {
+        "foreground": "$love"
+      }
+    },
+    {
+      "scope": [
+        "invalid.deprecated"
+      ],
+      "settings": {
+        "foreground": "$subtle"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "variable.language.this"
+      ],
+      "settings": {
+        "foreground": "$pine"
+      }
+    },
+    {
+      "scope": [
+        "markup.inserted.diff"
+      ],
+      "settings": {
+        "foreground": "$foam"
+      }
+    },
+    {
+      "scope": [
+        "markup.deleted.diff"
+      ],
+      "settings": {
+        "foreground": "$love"
+      }
+    },
+    {
+      "scope": "markup.heading",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.bold.markdown",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.italic.markdown",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "meta.diff.range"
+      ],
+      "settings": {
+        "foreground": "$iris"
+      }
+    },
+    {
+      "scope": [
+        "meta.tag",
+        "meta.brace"
+      ],
+      "settings": {
+        "foreground": "$text"
+      }
+    },
+    {
+      "scope": [
+        "meta.import",
+        "meta.export"
+      ],
+      "settings": {
+        "foreground": "$pine"
+      }
+    },
+    {
+      "scope": "meta.directive.vue",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "$iris"
+      }
+    },
+    {
+      "scope": "meta.property-name.css",
+      "settings": {
+        "foreground": "$foam"
+      }
+    },
+    {
+      "scope": "meta.property-value.css",
+      "settings": {
+        "foreground": "$gold"
+      }
+    },
+    {
+      "scope": "meta.tag.other.html",
+      "settings": {
+        "foreground": "$subtle"
+      }
+    },
+    {
+      "scope": [
+        "punctuation"
+      ],
+      "settings": {
+        "foreground": "$subtle"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.accessor"
+      ],
+      "settings": {
+        "foreground": "$pine"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "$gold"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "$muted"
+      }
+    },
+    {
+      "scope": [
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "$pine"
+      }
+    },
+    {
+      "scope": [
+        "string"
+      ],
+      "settings": {
+        "foreground": "$gold"
+      }
+    },
+    {
+      "scope": [
+        "support"
+      ],
+      "settings": {
+        "foreground": "$foam"
+      }
+    },
+    {
+      "scope": [
+        "support.constant"
+      ],
+      "settings": {
+        "foreground": "$gold"
+      }
+    },
+    {
+      "scope": [
+        "support.function"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "$love"
+      }
+    },
+    {
+      "scope": [
+        "variable"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "$rose"
+      }
+    },
+    {
+      "scope": [
+        "variable.other",
+        "variable.language",
+        "variable.function",
+        "variable.argument"
+      ],
+      "settings": {
+        "foreground": "$text"
+      }
+    },
+    {
+      "scope": [
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "$iris"
+      }
+    }
+  ],
+  "type": "$type"
+}
