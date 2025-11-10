@@ -20,7 +20,7 @@
         <key>lineHighlight</key>
         <string>#2a283e</string>
         <key>selection</key>
-        <string>#6e6a86</string>
+        <string>#44415a</string>
       </dict>
     </dict>
     <dict>
@@ -305,7 +305,7 @@
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>semanticClass</key>
-  <string>theme.dark.rosé-pine-moon</string>
+  <string>theme.dark.rose-pine-moon</string>
   <key>author</key>
   <string>arrrgi</string>
   <key>comment</key>
