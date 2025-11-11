@@ -40,7 +40,7 @@ migrated to the `.sublime-color-scheme` format.
    directory:
 
    ```sh
-   curl --remote-name-all https://raw.githubusercontent.com/rose-pine/tm-theme/main/dist/themes/rose-pine{,-dawn,-moon}.tmTheme
+   curl --remote-name-all https://raw.githubusercontent.com/rose-pine/tm-theme/main/dist/rose-pine{,-dawn,-moon}.tmTheme
    ```
 
 3. Now, update the theme cache for _**bat**_ by running the following command:
@@ -71,8 +71,8 @@ migrated to the `.sublime-color-scheme` format.
 
 ## Contributing
 
-Modify `template.json` or `template.tmTheme` using Rosé Pine variables, then build
-variants:
+Modify `template.json` or `template.tmTheme` using Rosé Pine variables, then
+build variants:
 
 <!-- #rose-pine-build -->
 
