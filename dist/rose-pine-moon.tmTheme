@@ -136,13 +136,26 @@
       <key>name</key>
       <string>Class name</string>
       <key>scope</key>
-      <string>entity.name.class</string>
+      <string>entity.name.class, entity.name</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
         <string>bold</string>
         <key>foreground</key>
         <string>#3e8fb0</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Headings</string>
+      <key>scope</key>
+      <string>markup.heading</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#ea9a97</string>
       </dict>
     </dict>
     <dict>
